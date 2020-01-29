@@ -1,7 +1,7 @@
 #include<stdio.h>
 main()
 {
-	int i,j,k;
+	int j,i,k;
 	{
 	for(i=1;i<=4;i++)
 	
