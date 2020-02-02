@@ -3,7 +3,7 @@ int main()
 {
 	int year,month,day,sum,leap;
 	printf("请输入年月日，格式如下X年,X月,X日：\n");
-	scanf("%d,%d,%d",&year,&month,&day);
+	scanf("%d%d%d",&year,&month,&day);
 	switch(month)
 	{
 		case 1:sum=0;break;
@@ -25,10 +25,10 @@ int main()
 		    leap=1;
 	else
 		    leap=0;
-	{
-		if(leap==1&&month>2)
-		sum=sum+1; 
-	} 
+	
+	if(leap==1&&month>2)
+	sum=sum+1; 
+	 
 	printf("它为一年的第%d天",sum);		
 	
 } 
