@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-	int i,x,s;
-	printf("请输入一个正整数:");
+	int i,x;
+	printf("请输入一个整数:");
 	scanf("%d",&x); 
 	printf("%d=",x);
 	for(i=2;i<=x;i++)
@@ -14,5 +14,4 @@ int main()
 			if(x!=1) printf("*");
 		}
     }
-    return 0;
 } 

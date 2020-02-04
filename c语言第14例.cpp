@@ -1,15 +1,19 @@
-
 #include<stdio.h>
+int max(int num1,int num2)
+{
+	int result;
+	if(num1>num2)
+	    result=num1;
+	else
+	    result=num2;
+    return result;	
+} 
 int main()
 {
-	int x;
-	printf("ÇëÊäÈë³É¼¨£º");
-	scanf("%d",&x) ;
-	if(x>=90)
-	printf("A");
-	else if(x>=60&&x<=89) 
-	printf("B");
-	else if(x<60)
-	printf("C");
-	
+	int a=100;
+	int b=200;
+	int ret;
+	ret=max(a,b);
+	printf("max value is :%d\n",ret);
+	return 0;
 }
